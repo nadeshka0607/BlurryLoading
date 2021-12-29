@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://cdn.getyourguide.com/img/location/5ffeb528d3d6f.jpeg/92.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -30; /* */
+    left: -30;
+    width: calc(100vw + 60px); /* 100% + 60px (30 влево и 30 вправо)*/
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+
+}
